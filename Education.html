@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+	<title>Tommy Zhou (Gaoxiang Zhou)</title>
+	<meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="jquery.eeyellow.Timeline.css" />
+  <script src="bootstrap.min.js"></script>
+  <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="jquery.eeyellow.Timeline.js"></script> 
+	<link href="training(css).css" type="text/css" rel="stylesheet">
+	
+	 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" role ="navigation">
+
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Tommy Zhou</a>
+    </div>
+   
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapsibleNav" >
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+   	</button>
+
+
+    <div class="collapse navbar-collapse" id ="collapsibleNav">
+
+    <ul class="nav navbar-nav">
+      <li id="home"><a href="Home.html">Home</a></li>
+      <li id="education" class="active"><a href="Education.html">Education</a></li>
+      <li id="projects"><a href="projects.html">Projects</a></li>
+      <li id="experience"><a href="experience.html">Experience</a></li>
+      <li id="github"><a href="https://github.com/Tommyzhou1?tab=repositories">Github</a></li>
+      <li id="contact_me"><a href="contact.html">Contact me</a></li>
+
+    </ul>
+	</div>
+
+  </div>
+</nav>
+
+<main>
+  
+
+	<div id = "id_header_1">My personal website</div>
+	<div id="id_school"><h2>Education
+	</h2></div>
+
+
+</main>
+
+<footer id= "id_footer" >
+		<hr>
+		<p><a href="https://github.com/Tommyzhou1?tab=repositories"><img src="github.png" width="40" height="40" alt="github"></a> 
+			<a href="https://www.linkedin.com/in/gaoxiang-zhou-661161151/"><img src="linkedin.png" width="40" height="40" alt="linkedin"></a>
+		</p>
+		<p>Last Update: Aug.9.2019</p>
+		<p>&copy; 2019 Gaoxiang Zhou. All rights reserved.</p>
+</footer>
+</body> 
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="VivaTimeline">
+        <dl>
+          <!---CIC--->
+          <dt>Jan 2015</dt>
+          <dd class="pos-left clearfix">
+          <div class="circ"></div>
+              <div class="time">May</div>
+              <div class="events">
+                    <div class="events-header">Columbia International College (High School)</div>
+                    <div class="events-body">
+                          <div class="row">
+                                <div id = "high_school" class="events-desc">
+                                <img src="cic.png" width="130" height="50" alt="cic.png">
+                                  <p>overall grades: 3.98 <span class="badge badge-success">Accomplished</span>
+                               
+                                  </p>
+                                </div>
+                          </div>
+                          <div class="row">
+                              <div class="events-desc">
+                                  Vigorous with volunteering, such as Fundraising for Terry Fox Run and sanatorium's work
+                              </div>
+                          </div>
+                    </div>
+                    <div class="events-footer">
+                        
+                    </div>
+              </div>
+          </dd>
+          <!-- UofT -->
+          <dt>May 2017</dt>
+          <dd class="pos-right clearfix">
+          <div class="circ"></div>
+              <div class="time">Aug</div>
+              <div class="events">
+                    <div class="events-header">University of Toronto (St.George Campus)</div>
+                    <div class="events-body">
+                          <div class="row">
+                                <div id = "high_school" class="events-desc">
+                                  <img src="UofT.png" width="140" height="70" alt="UofT">
+                                  <p>Overall grades: 3.63 Bachelor of Computer Engineering <span class="badge badge-success">Pursuing</span> 
+                                 
+                                  </p>
+                                </div>
+                          </div>
+                          <div class="row">
+                              <div class="events-desc">
+                                    Participating into various clubs such as badminton, UTMIST and UTEK competition.
+                              </div>
+                          </div>
+                    </div>
+                    <div class="events-footer">
+                        
+                    </div>
+              </div>
+          </dd>
+          <dt>Now</dt> 
+        </dl>
+      </div>
+    </div>
+  </div>
+</div>
+<!----after loading the DOM---->
+<script type="text/javascript">
+	window.onload = function(){
+	$('.VivaTimeline').vivaTimeline({
+		carousel:false
+		});
+		
+	}
+</script>
+
+</html>
+

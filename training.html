@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+	<title>Tommy Zhou (Gaoxiang Zhou)</title>
+	<meta charset="utf-8">
+	<link href="training(css).css" type="text/css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+<img src="me.jpg" class="img-circle">
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Tommy Zhou</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li id="home"><a href="Home.html">Home</a></li>
+      <li id="education"><a href="Education.html">Education</a></li>
+      <li id="projects"><a href="projects.html">Projects</a></li>
+      <li id="experience"><a href="#experience">Experience</a></li>
+      <li id="github"><a href="https://github.com/Tommyzhou1?tab=repositories">Github</a></li>
+      <li id="contact_me"><a href="#contact_me">Contact me</a></li>
+
+    </ul>
+  </div>
+</nav>
+
+
+<main>
+  
+<script type="text/javascript">
+
+	$(document).ready(function(){
+		var location = window.location.href;
+		var id = location.substring(location.lastIndexOf('/')+1);
+		$("#" + id).addClass("active");
+	});
+
+</script>
+<section id = "home">
+<div id="id_wrapper">
+	<div id="id_header">
+		My Personal Website
+	</div>
+	<div id="id_content">
+		<h1>Tommy Zhou (Gaoxiang Zhou)</h1>
+		<p>UofT ECE2T1</p>
+		<h2></h2>	
+
+		<p>Site construction work
+		<strong>Still in Progress</strong>
+		</p>
+		<li>Sorry for the inconvenience</li>
+
+	</div>
+
+</div>
+<!---------------main content------------------->
+</section>
+
+
+
+</main>
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+  <script src="bootstrap.min.js"></script>
+</body> 
+
+<footer id= "id_footer">
+		<hr>
+		<p><a href="https://github.com/Tommyzhou1?tab=repositories"><img src="github.jpeg" width="40" height="40" alt="github"></a> 
+			<a href="https://www.linkedin.com/in/gaoxiang-zhou-661161151/"><img src="linkedin.jpeg" width="40" height="40" alt="linkedin"></a>
+		</p>
+		Last Update: Aug.6.2019
+		<p>&copy; 2019 Gaoxiang Zhou. All rights reserved.
+		</footer>
+</html>
